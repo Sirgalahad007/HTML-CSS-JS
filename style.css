@@ -1,0 +1,51 @@
+
+    
+    body {   
+    background-color:#062865;
+    background-size: 15%, 15%, 15%, 15%;
+    background-image: 
+    url(tr.png), url(tl.png), url(bl.png),url(br.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+}
+
+.card {
+    display: flex;
+    justify-content: last baseline;
+    flex-direction: column;
+    min-height: 60vh;
+    width: 28vw;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 2px;
+}
+
+p.footer {
+    text-align: center;
+    font-style: inherit;
+}
+
+a {
+    color: white;
+    justify-content: center;
+}
+  
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10;
+}
+
